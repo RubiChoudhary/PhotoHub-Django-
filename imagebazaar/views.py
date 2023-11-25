@@ -19,7 +19,7 @@ def show_home_page(request):
     images = Image.objects.all()
     data = {'images': images,
             'cats': cats}
-    return render(request, "home.html", data)
+    return render(request, "index.html", data)
 
 def show_category_page(request, cid):
     print(cid)
@@ -30,7 +30,7 @@ def show_category_page(request, cid):
     images = Image.objects.filter(cat= category)
     data = {'images': images,
             'cats': cats}
-    return render(request, "home.html", data)
+    return render(request, "index.html", data)
 
 def home(request):
     return redirect('/home')
