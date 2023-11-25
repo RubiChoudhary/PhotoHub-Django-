@@ -1,2 +1,3 @@
 <h1>PhotoHub</h1>
-![image](https://github.com/RubiChoudhary/PhotoHub-Django-/assets/94670586/346bac8c-f00a-41fe-8b74-34228d8d9def)
+![image](https://github.com/RubiChoudhary/PhotoHub-Django-/assets/94670586/b7303ef5-68fa-4622-8adf-d15aab918200)
+
